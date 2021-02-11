@@ -69,7 +69,7 @@ class GameScene: SKScene {
         for touch in touches{
             let location = touch.location(in: self)
             
-            main.run(SKAction.moveTo(x: location.x, duration: 0.2))
+            main.run(SKAction.moveTo(x: location.x, duration: 0.201))
             
         }
     }
@@ -79,7 +79,7 @@ class GameScene: SKScene {
                 
                 let location = touch.location(in: self)
                 
-                main.run(SKAction.moveTo(x: location.x, duration: 0.2))
+                main.run(SKAction.moveTo(x: location.x, duration: 0.201))
                 
             }
             
